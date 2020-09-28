@@ -1,0 +1,8 @@
+mutation login($customer: LoginInput!) {
+    login(customer: $customer) {
+        id
+        firstName
+        lastName
+        email
+    }
+}
